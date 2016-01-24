@@ -1,0 +1,22 @@
+group 'marconideveloper'
+version '0.5'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+dependencies {
+    compile 'com.github.marconi1992:kairos-core:0.5'
+    compile 'com.github.marconi1992:kairos-material-components:0.3'
+}
