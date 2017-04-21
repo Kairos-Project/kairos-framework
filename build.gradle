@@ -17,6 +17,6 @@ task fatJar(type: Jar) {
 }
 
 dependencies {
-    compile 'com.github.marconi1992:kairos-core:0.5.*'
-    compile 'com.github.marconi1992:kairos-material-components:0.3.*'
+    compile 'com.github.marconi1992:kairos-core:0.5'
+    compile 'com.github.marconi1992:kairos-material-components:0.3.2'
 }
