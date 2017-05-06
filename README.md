@@ -36,7 +36,7 @@ Finally add the framework to the gradle dependencies
 
 ```gradle
 dependencies {
-   compile 'com.github.marconi1992:kairos-framework:0.5'
+   compile 'com.github.Kairos-Project:kairos-framework:0.5.1'
 }
 ```
 
@@ -72,12 +72,5 @@ Place the file inside of your ja	va project.
 * Select Add JAR/Folder
 * In the File Chooser select the jar and confirm
 
-## <a name="v1-projects"></a>Example Projects
-
-<!-- AUTO-GENERATED-CONTENT:START (GENERATE_SERVERLESS_PLUGIN_TABLE)-->
-| Project Name | Author |
-|:-------|:------:|
-| **[SlidingTab](https://github.com/Kairos-Project/kairos-example/tree/master/SlidingTab)** <br/> Comple SlidingTab Example Project with Drawing Menu| [kairos](https://github.com/Kairos-Project) | 
-<!-- AUTO-GENERATED-CONTENT:END -->
 
 
